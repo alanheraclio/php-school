@@ -1,0 +1,90 @@
+body {
+	background-color: #78909c;
+	font-family: 'Courier New', monospace;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	background-color: #263238;
+	text-align: center;
+	padding: 6px;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 12px;
+}
+
+.form_container {
+	background-color: #263238;
+	text-align: center;
+	width: 50%;
+}
+
+.form_input {
+	box-sizing: border-box;
+	outline: none;
+	margin: 10px;
+	padding: 5px;
+	width: 50%;
+  }
+
+.form_input:focus {
+	border: 3px solid #4fc3f7;
+  }
+
+.form_button {
+	background-color: #1565c0;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	width: 23%;
+}
+
+.form_button:hover {
+	cursor: pointer;
+}
+
+.save_button {
+	background-color: #1565c0;
+}
+.save_button:hover {
+	background-color: #4fc3f7;
+}
+
+.cancel_button {
+	background-color: #4caf50;
+}
+.cancel_button:hover {
+	background-color: #69f0ae;
+}
+
+.warning {
+	background-color: #ffcdd2;
+	border: solid #d50000 1px;
+	color: #d50000;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.success {
+	background-color: #c8e6c9;
+	border: solid #00c853 1px;
+	color: #00c853;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer {
+	background-color: #263238;
+	bottom: 0px;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+}

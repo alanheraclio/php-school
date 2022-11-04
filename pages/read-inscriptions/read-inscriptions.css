@@ -1,0 +1,83 @@
+body {
+	background-color: #78909c;
+	font-family: 'Courier New', monospace;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu {
+	background-color: #263238;
+	color: white;
+	padding: 6px;
+	text-align: right;
+}
+
+a {
+	color: white;
+	text-decoration: none; 
+}
+
+.logout_button {
+	padding: 6px;
+}
+.logout_button:hover {
+	background-color: #00b0ff;
+	cursor: pointer;
+}
+
+.header {
+	background-color: #263238;
+	text-align: center;
+	padding: 6px;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 12px;
+}
+
+td, th {
+	background-color: #263238;
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 18px;
+}
+
+.action_buttton {
+	border: 1px solid white;
+	padding: 6px;
+	margin: 6px;
+	color: white;
+}
+
+.read_button {
+	background-color: #00c853;
+}
+.read_button:hover {
+	background-color: #69f0ae;
+}
+
+.edit_button {
+	background-color: #2979ff;
+}
+.edit_button:hover {
+	background-color: #81d4fa;
+}
+
+.delete_button {
+	background-color: #d32f2f;
+}
+.delete_button:hover {
+	background-color: #ffcdd2;
+}
+
+.footer {
+	background-color: #263238;
+	bottom: 0px;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+}

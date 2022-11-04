@@ -1,0 +1,60 @@
+body {
+	background-color: #78909c;
+	font-family: 'Courier New', monospace;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu {
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu_button {
+	align-items: center;
+	display: flex;
+	font-size: 18px;
+    justify-content: center;
+	padding: 12px;
+	width: 20%;
+}
+.menu_button:hover {
+	background-color: #00b0ff;
+	cursor: pointer;
+}
+
+.header {
+	background-color: #263238;
+	text-align: center;
+	padding: 6px;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.services_table {
+	margin: 12px;
+	background-color: #263238;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 18px;
+}
+
+.footer {
+	background-color: #263238;
+	bottom: 0px;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+}

@@ -1,0 +1,94 @@
+body {
+	background-color: #78909c;
+	font-family: 'Courier New', monospace;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu {
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu_button {
+	align-items: center;
+	display: flex;
+	font-size: 18px;
+    justify-content: center;
+	padding: 12px;
+	width: 20%;
+}
+.menu_button:hover {
+	background-color: #00b0ff;
+	cursor: pointer;
+}
+
+.header {
+	background-color: #263238;
+	text-align: center;
+	padding: 6px;
+}
+
+.container {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin: 12px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.login_form {
+	background-color: #263238;
+	width: 50%;
+}
+
+input {
+	margin: 10px;
+	padding: 5px;
+	width: 50%;
+}
+
+.form_input {
+	box-sizing: border-box;
+	outline: none;
+}
+
+.form_input:focus {
+	border: 3px solid #4fc3f7;
+}
+
+.login_button {
+	background-color: #1565c0;
+	color: white;
+	padding: 10px;
+}
+
+.login_button:hover {
+	background-color: #4fc3f7;
+	cursor: pointer;
+}
+
+.warning {
+	background-color: #ffcdd2;
+	border: solid #d50000 1px;
+	color: #d50000;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer {
+	background-color: #263238;
+	bottom: 0px;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+}

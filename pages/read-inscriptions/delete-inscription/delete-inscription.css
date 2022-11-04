@@ -1,0 +1,40 @@
+body {
+	background-color: #78909c;
+	font-family: 'Courier New', monospace;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 12px;
+}
+
+.warning {
+	background-color: #ffcdd2;
+	border: solid #d50000 1px;
+	color: #d50000;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.success {
+	background-color: #c8e6c9;
+	border: solid #00c853 1px;
+	color: #00c853;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer {
+	background-color: #263238;
+	bottom: 0px;
+	padding: 12px;
+	position: fixed;
+	width: 100%;
+}
